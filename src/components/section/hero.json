@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_section_heroes",
+  "info": {
+    "displayName": "Hero",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true,
+      "minLength": 5,
+      "default": "Title-example"
+    },
+    "Description": {
+      "type": "blocks",
+      "required": true
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
